@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+h1{
+  font-family: 'Poiret One', cursive;
+  font-size: 60px;
+}
+
+h2{
+  font-family: 'Poiret One', cursive;
+  font-size: 40px;
+}
+
+h3{
+  font-family: 'Poiret One', cursive;
+}
+
+h4{
+  font-family: 'Poiret One', cursive;
+}
+
+h5{
+  font-family: 'Poiret One', cursive;
+}
+
+h6{
+  font-family: 'Poiret One', cursive;
+}
+
+p{
+  font-family: 'Architects Daughter', cursive;
+
+}
+
+li{
+  font-family: 'Architects Daughter', cursive;
+}
+
+.card{
+  font-size: small;
+  font-family: 'Architects Daughter', cursive;
+}
