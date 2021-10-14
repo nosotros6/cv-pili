@@ -2,12 +2,12 @@
 
 h1{
   font-family: 'Poiret One', cursive;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 h2{
   font-family: 'Poiret One', cursive;
-  font-size: 40px;
+  font-size: 20;
 }
 
 h3{
@@ -27,15 +27,17 @@ h6{
 }
 
 p{
-  font-family: 'Architects Daughter', cursive;
-
-}
+  font-family: 'Darker Grotesque', sans-serif;
+  }
 
 li{
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Darker Grotesque', sans-serif;
 }
 
 .card{
-  font-size: small;
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+.card-body{
+  background: "secondary bg-opacity-10"
 }
