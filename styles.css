@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
+.d-flex-work{
+  background-color: #C4BDFA;
+}
+
+
+.d-flex-study{
+  background-color: #CCF6C8;
+}
+
+
+.d-flex-ability{
+  background-color: #d4c6d4;
+}
+
+.d-flex-contact{
+  background-color: #FCFFA6;
+}
+
 h1{
   font-family: 'Poiret One', cursive;
   font-size: 40px;
@@ -7,11 +25,12 @@ h1{
 
 h2{
   font-family: 'Poiret One', cursive;
-  font-size: 20;
+  font-size: 30px;
 }
 
 h3{
   font-family: 'Poiret One', cursive;
+  font-size: 25px;
 }
 
 h4{
@@ -37,8 +56,8 @@ li{
 .flip-container {
   background-color: transparent;
   width: 300px;
-  height: 300px;
-  border: 1px solid #ccc;
+  height: 150px;
+  border: 1px transparent;
   perspective: 1000px; 
 }
 .card {
@@ -48,10 +67,12 @@ li{
   text-align: center;
   transition: transform 1s;
   transform-style: preserve-3d;
+  
 }
 .flip-container:hover .card {
-  transform: rotateY(180deg);
+  transform: rotateY(180deg);   
 }
+
 .front, .back {
   position: absolute;
   width: 100%;
@@ -60,15 +81,30 @@ li{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 5rem;
-}
-.front {
-  background-color: #ff0000;
-  color: #fff;
+  font-size: 1rem;
+  border-radius: 2%;
   
 }
+.front {
+  background-color:#f7f8fc;
+  color: rgb(39, 37, 37);
+    
+}
 .back {
-  background-color: #0000ff;
-  color: white;
+  background-color: #71789e;
+  color: rgb(250, 241, 241);
   transform: rotateY(180deg);
 }
+
+.back-study{
+  background-color: #6a9965;
+  color: rgb(250, 241, 241);
+  transform: rotateY(180deg);
+}
+
+.back-ability{
+  background-color: #836c83;
+  color: rgb(250, 241, 241);
+  transform: rotateY(180deg);
+}
+
