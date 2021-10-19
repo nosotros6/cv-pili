@@ -54,7 +54,8 @@ h1{
   border-radius: 5px;
   margin-top: 80px;
   margin-bottom: 0px;
-  margin-left: 150px;   
+  margin-left: 150px; 
+  padding-bottom: 0px;  
 }
 
 body,html {
@@ -80,10 +81,15 @@ h3{
   font-size: 20px;
 }
 
-
-
-h4, h5, h6{
+h4{
   font-family: 'Poiret One', cursive;
+  font-size: 20px;
+}
+
+h5, h6{
+  font-family: 'Bungee Outline', cursive;
+  font-family: 'Comfortaa', cursive; 
+  font-size: 11px;
 }
 
 p, a{
