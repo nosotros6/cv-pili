@@ -4,9 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 
 .d-flex-home{
-  background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(233, 229, 248));
+  background-color: #dfe0de;
 }
 
 .d-flex-work{
@@ -27,7 +29,6 @@
   background-color: #f5f7bf;
 }
 
-
 /*h1{
   font-family: 'Londrina Shadow', cursive;
   font-size: 70px;
@@ -35,27 +36,37 @@
   margin-top: 5px;
 }*/
 
+
+
 h1{
-  font-family: "font-family: 'Yanone Kaffeesatz', sans-serif;"
-  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  /*text-transform: uppercase;*/
   /*display: block;*/
   font-size: 50px;
-  color: #eaedf0;
-  text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #ffffff;
+  color: #f5f5f5;
+  text-shadow:  1px 1px 1px #919191,
+  1px 2px 1px #919191,
+  1px 3px 1px #919191,
+  1px 4px 1px #919191,
+  1px 5px 1px #919191,
+  1px 6px 1px #919191,
+  1px 7px 1px #919191,
+  1px 8px 1px #919191,
+  1px 9px 1px #919191,
+  1px 10px 1px #919191,
+  1px 18px 6px rgba(16,16,16,0.4),
+  1px 22px 10px rgba(16,16,16,0.2),
+  1px 25px 35px rgba(16,16,16,0.2),
+  1px 30px 60px rgba(16,16,16,0.4);
   font-weight: bold;
-  letter-spacing: -5px;
+  letter-spacing: -1px;
   text-align: left;
   background: linear-gradient(to bottom, #ffffff 0%);
-  /*position: absolute;*/
-  padding: 10px 10px;
-  top: 100%;
-  left: 100%;
-  transform: translate(-50%,-50%);
   border-radius: 5px;
-  margin-top: 80px;
-  margin-bottom: 0px;
-  margin-left: 150px; 
-  padding-bottom: 0px;  
+  margin-top: 5px;
+  margin-bottom: 40px;
+  margin-left: 0px; 
+  padding-bottom: 1px;  
 }
 
 body,html {
@@ -164,3 +175,6 @@ li{
   transform: rotateY(180deg);
 }
 
+.form-control-name{
+  height: 20px;
+  width: 180px;
