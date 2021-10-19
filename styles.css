@@ -6,7 +6,7 @@
 
 
 .d-flex-home{
-  background-image: linear-gradient(to bottom, #eaedf0 0%, #ffffff 100%);
+  background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(233, 229, 248));
 }
 
 .d-flex-work{
