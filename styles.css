@@ -128,24 +128,44 @@ body{
 
 .d-flex-home{
   background-color: #333;
+  background-image : src="./img/home.png";
+  height: 130vh;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .d-flex-work{
   background-color: #C4BDFA;
+  background-image : src="./img/work.png";
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 
 .d-flex-study{
   background-color: #CCF6C8;
+  background-image : src="./img/study.png";
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 
 .d-flex-ability{
   background-color: #fce0bd;
+  background-image : src="./img/ability.png";
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .d-flex-contact{
   background-color: #d4c6d4;
+  background-image : src="./img/contact.png";
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 
@@ -158,24 +178,6 @@ h1{
   padding-bottom: 0px;
   padding-left: auto; 
   letter-spacing: .1em;
-    /*text-shadow: 
-      0 -1px 0 #fff, 
-      0 1px 0 #2e2e2e, 
-      0 2px 0 #2c2c2c, 
-      0 3px 0 #2a2a2a, 
-      0 4px 0 #282828, 
-      0 5px 0 #262626, 
-      0 6px 0 #242424, 
-      0 7px 0 #222, 
-      0 8px 0 #202020, 
-      0 9px 0 #1e1e1e, 
-      0 10px 0 #1c1c1c, 
-      0 11px 0 #1a1a1a, 
-      0 12px 0 #181818, 
-      0 13px 0 #161616, 
-      0 14px 0 #141414, 
-      0 15px 0 #121212, 
-      0 22px 30px rgba(0, 0, 0, 0.9);*/
 }
 
 
@@ -253,10 +255,9 @@ a {
   height: 100%;
   text-align: center;
   transition: transform 1s;
-  transform-style: preserve-3d;
-  
-  
+  transform-style: preserve-3d;  
 }
+
 .flip-container:hover .card {
   transform: rotateY(180deg);   
 }
@@ -271,9 +272,9 @@ a {
   justify-content: center;
   font-size: 16px;
   border-radius: 2%;3px 3px 8px
-  box-shadow:  #b3b0b0;
-  
+  box-shadow:  #b3b0b0;  
 }
+
 .front {
   background-color:#f7f8fc;
   color: rgb(39, 37, 37);
@@ -299,7 +300,8 @@ a {
 
 .form-control-name{
   height: 100px;
+}
 
-
-
- 
+.container-title{
+  width: 600px;
+}
