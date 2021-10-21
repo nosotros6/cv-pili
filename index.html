@@ -3,15 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Estilos personalizados -->
-    <link rel="stylesheet" href="styles.css">
+    
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+    
     <title>Document</title>
   </head>
   <body>
-
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 m-0">
       <div class="container-fluid m-0 p-0 d-flex justify-content-end">
         <!-- justify end -->
@@ -34,18 +35,18 @@
       <!-- pagina 1 -->
       <div class="tab-pane fade width-show show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
         <!-- contenido home -->
-        <div class="d-flex d-flex-home justify-content-between">
+        <div class="d-flex d-flex-home">
           <img src="./img/home.png" class="col-md-4 float-me-3" alt="Pilar García Royo">      
           <div class="container">
             <div class="container">
               <h1>PILAR</h1>            
-              <h2>GARCíA ROYO</h2>
+              <h2 class="title mb-5">GARCíA ROYO</h2>
             </div>            
-            <div class="container mb-4">
+            <div>
               <h6>¡Hola, Mundo!</h6>
               <p>Esta web personal la diseñé y programé para que conozcas mi perfil profesional: estudios, trabajos, capacitaciones, hobbies y datos personales.</p>      
               
-              <h4>¿QUÉ HAGO?</h4>            
+              <h4 class="title mt-5 mb-4">¿QUÉ HAGO?</h4>            
               <p>Soy Periodista titulada de la Universidad de Chile con un Bootcamp de Le Wagon para Web Developer Full Stack. Me considero una persona motivada, que disfruta del trabajo en equipo, creativa, resiliente, responsable, con habilidades comunicativas y con experiencia en:</p>
               <li>
                 Comunicación Social y organizacional.
@@ -69,11 +70,11 @@
                 Programación en JavaScrip, HTML, CSS, Bootstrap, Figma, código Ruby y Ruby on Rails. 
               </li>        
               <br>   
-              <h4>MIS OBJETIVOS</h4>            
+              <h4 class="title mt-3 mb-4">MIS OBJETIVOS</h4>            
               <p>Con mis conocimientos y experiencia, busco ser parte de  equipos de trabajo para contribuir en el logro de sus metas y promocionar el desarrollo humano pleno y armonioso de sus integrantes.</p>
               <p>Si quieres trabajar conmigo, que te asesore o hacerme una consulta profesional, puedes dejarme un mensaje en contacto por allá ==></p>
               
-              <h6>¡ Gracias por leerme y disfruta de tu navegación !</ph6>
+              <p class="title mt-4 mb-4">¡ Gracias por leerme y disfruta de tu navegación !</p>
             </div>
           </div>
         </div>  
@@ -82,7 +83,7 @@
       <!-- pagina 2 -->
       <div class="tab-pane fade width-show" id="list-work" role="tabpanel" aria-labelledby="list-work-list">
         <!-- contenido work -->
-        <div class="d-flex d-flex-work justify-content-between">
+        <div class="d-flex d-flex-work">
           <img src="./img/work.png" class="col-md-4 float- me-3" alt="Pilar García Royo">      
           <div class="container">
             <div class="container p-0 md-3 mt-3 mb-5 text-center">
@@ -93,9 +94,9 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col mb-4">
                 <div class="flip-container">               
-                  <div class="card" style="width: 8rem">               
+                  <div class="card">               
                     <div class="front">
-                      <p class="text-muted">Periodista<br>Encargada<br>de Difusión<br><br><small>CHILEVISIÓN</small></p>                  
+                      <h5>Periodista<br>Encargada<br>de Difusión y RR.PP.<br><br>CHILEVISIÓN</h5>                  
                     </div>
                     <div class="back">
                       <h6>1990 - 1994</h6>
@@ -105,9 +106,9 @@
               </div>
               <div class="col mb-4">                
                 <div class="flip-container" >
-                  <div class="card" style="width: 8rem">
+                  <div class="card">
                     <div class="front">
-                      <p class="text-muted">Periodista<br>Encargada de Comunicaciones<br><br>         <small>UNIVERSIDAD<br>DEL BÍO BÍO</small></p> 
+                      <h5>Periodista<br>Encargada de<br>Comunicaciones<br><br>UNIVERSIDAD<br>DEL BÍO BÍO</h5> 
                     </div> 
                     <div class="back">
                       <h6>1996 - 1997</h6>                                      
@@ -117,9 +118,9 @@
               </div>
               <div class="col mb-4">
                 <div class="flip-container">
-                  <div class="card" style="width: 8rem">                
+                  <div class="card">                
                     <div class="front">
-                      <p class="text-muted">Gerente<br><br><small> CORPORACIÓN<br>TEATRO PENCOPOLITANO</small></p>                  
+                      <h5>Gerente<br><br>CORPORACIÓN<br>TEATRO PENCOPOLITANO</h5>                  
                     </div>
                     <div class="back">
                       <h6>1997 - 2008</h6>                                      
@@ -131,9 +132,9 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col mb-4">
                 <div class="flip-container">          
-                  <div class="card" style="width: 8rem">                
+                  <div class="card">                
                     <div class="front">
-                      <p class="text-muted">Conductora y<br>Productora Ejecutiva<br><br><small>TRAVESIA / TVN <br>DOCUMENTAL</small></p>                  
+                      <h5>Conductora<br>Productora Ejecutiva<br><br>TRAVESIA / TVN <br>DOCUMENTAL</h5>                  
                     </div>
                     <div class="back">                    
                       <h6>2003 <br>
@@ -146,9 +147,9 @@
               </div>      
               <div class="col mb-4">          
                 <div class="flip-container">
-                  <div class="card" style="width: 8rem">
+                  <div class="card">
                     <div class="front">
-                      <p class="text-muted">Administradora<br>Socia<br><br><small>PISCINAS CASTAÑARES</small></p>
+                      <h5>Administradora<br>Socia<br><br>PISCINAS CASTAÑARES</h5>
                     </div>
                     <div class="back">
                       <h6>2008 - 2018</h6 >
@@ -158,9 +159,10 @@
               </div>       
               <div class="col mb-4">
                 <div class="flip-container">
-                  <div class="card" style="width: 8rem">
+                  <div class="card">
                     <div class="front">
-                      <p class="text-muted">Web Developer<br>Socia<br><br><small>CAFÉ CON LECHE<br>WEB PROFILE</small></p>
+                      <h5>Web Developer<br>Socia<br><br>WEB
+                        PROFILE</h5>
                     </div>
                     <div class="back">
                       <h6>2021<br>a la fecha</h6>
@@ -176,7 +178,7 @@
       <div class="tab-pane fade width-show" id="list-study" role="tabpanel" aria-labelledby="list-study-list">
         <!-- contenido study -->
         <div class="d-flex d-flex-study">
-          <img src="./img/study.png" class="col-md-4 mb-3 me-3" alt="Pilar García Royo">    
+          <img src="./img/study.png" class="col-md-4 float me-3" alt="Pilar García Royo">    
           <div class="container">      
             <div class="container p-0 mb-5 text-center">
               <div class="shadow pt-2 md-3 mt-3 mb-5 rounded">
@@ -186,36 +188,36 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">          
               <div class="col mb-4">                    
                 <div class="flip-container">
-                  <div class="card" style="width: 8rem">
+                  <div class="card">
                     <div class="front">
-                      <p class="text-muted">Periodismo y<br>Licenciatura en<br>Comunicación Social</p>                
+                      <h5>Periodismo y<br>Licenciatura en<br>Comunicación Social</h5>                
                     </div>
                     <div class="back back-study">
-                      <p>Universidad de Chile<br>(1987 - 1991)</p>
+                      <h6>Universidad de Chile<br>(1987 - 1991)</h6>
                     </div>
                   </div>
                 </div>            
               </div>          
               <div class="col mb-4">          
                 <div class="flip-container">
-                  <div class="card" style="width: 8rem">
+                  <div class="card">
                     <div class="front">
-                      <p class="text-muted">Diplomado de<br>Marketing</p>
+                      <h5>Diplomado de<br>Marketing</h5>
                     </div>
                     <div class="back back-study">
-                      <p>Universidad<br>del Bío-Bío<br>(2003 - 2004)</p>
+                      <h6>Universidad<br>del Bío-Bío<br>(2003 - 2004)</h6>
                     </div>
                   </div>
                 </div>              
               </div>  
               <div class="col mb-4">          
                 <div class="flip-container">
-                  <div class="card" style="width: 8rem">
+                  <div class="card">
                     <div class="front">
-                      <p class="text-muted">Bootcamp<br>Emprendimiento<br>con Tecnologías Web</p>
+                      <h5>Bootcamp<br>Emprendimiento<br>con Tecnologías Web</h5>
                     </div>
                     <div class="back back-study">
-                      <p>Le Wagon<br>Santo Tomás EC <br>Sence<br>(2021)</p>
+                      <h6>Le Wagon<br>Santo Tomás EC <br>Sence<br>(2021)</h6>
                     </div>                   
                   </div>
                 </div>  
@@ -224,36 +226,36 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col mb-4">          
                 <div class="flip-container">
-                  <div class="card" style="width: 8rem">
+                  <div class="card">
                     <div class="front">
-                      <p class="text-muted">Marketing<br>      Digital,<br>Redes Sociales<br>y Modelos<br>de Negocio</p>
+                      <h5>Marketing Digital<br>Redes Sociales<br> Modelos<br>de Negocio</h5>
                     </div>
                     <div class="back back-study">
-                      <p>Fundación<br>Simón de Cirene<br>Banco de Chile<br>Sence<br>(2021)</p>
+                      <h6>Fundación<br>Simón de Cirene<br>Banco de Chile<br>Sence<br>(2021)</h6>
                     </div>
                   </div>            
                 </div>  
               </div>
               <div class="col mb-4">          
                 <div class="flip-container">
-                  <div class="card" style="width: 8rem">
+                  <div class="card">
                     <div class="front">
-                      <p class="text-muted">Estética<br>Integral</p>
+                      <h5>Estética<br>Integral</h5>
                     </div>
                     <div class="back back-study"> 
-                      <p>Vittal<br>Bio Estudio<br>(2014 - 2015)</p>
+                      <h6>Vittal<br>Bio Estudio<br>(2014 - 2015)</h6>
                     </div>               
                   </div>            
                 </div>  
               </div>
               <div class="col mb-4">          
                 <div class="flip-container">
-                  <div class="card" style="width: 8rem">
+                  <div class="card">
                     <div class="front">
-                      <p class="text-muted">Oficios y Hobbies</p>
+                      <h5>Oficios y Hobbies</h5>
                     </div>
                     <div class="back back-study">
-                      <p>Tarot<br>Diseño<br>Acuarela<br>Confección<br>Masoterapia<br>Eco Huerta</p>
+                      <h6>Tarot<br>Diseño<br>Acuarela<br>Confección<br>Masoterapia<br>Eco Huerta</h6>
                     </div>
                   </div>
                 </div>
@@ -277,36 +279,36 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col mb-4">
                 <div class="flip-container">
-                  <div class="card" style="width: 8rem">
+                  <div class="card">
                     <div class="front">
-                      <p class="text-muted">- Liderazgo<br>- Compromiso<br>- Perseverancia</p>                  
+                      <h5>- Liderazgo<br>- Compromiso<br>- Perseverancia</h5>                  
                     </div>
                     <div class="back back-ability">
-                      <p>- Liderazgo<br>- Compromiso<br>- Perseverancia<br>- Responsabilidad</p>
+                      <h6>- Liderazgo<br>- Compromiso<br>- Perseverancia<br>- Responsabilidad</h6>
                     </div>
                   </div>
                 </div>  
               </div>    
               <div class="col mb-4">
                 <div class="flip-container">
-                  <div class="card" style="width: 8rem">
+                  <div class="card">
                     <div class="front">
-                      <p class="text-muted">- Empatía<br>- Resililiencia<br>- Resolución de Problemas</p>
+                      <h5>- Empatía<br>- Resililiencia<br>- Resolución de Problemas</h5>
                     </div>
                     <div class="back back-ability">
-                      <p>- Empatía<br>- Resililiencia<br>- Resolución de Problemas</p>
+                      <h6>- Empatía<br>- Resililiencia<br>- Resolución de Problemas</h6>
                     </div>
                   </div>
                 </div>  
               </div>    
               <div class="col mb-4">
                 <div class="flip-container">
-                  <div class="card" style="width: 8rem">
+                  <div class="card">
                     <div class="front">
-                      <p class="text-muted">- Habilidades de Comunicación<br>- Capacidad<br>de Análisis y Síntesis</p>
+                      <h5>- Habilidades de Comunicación<br>- Capacidad<br>de Análisis y Síntesis</h5>
                     </div>
                     <div class="back back-ability">
-                      <p>- Habilidades de Comunicación<br>- Capacidad<br>de Análisis y Síntesis</p>
+                      <h6>- Habilidades de Comunicación<br>- Capacidad<br>de Análisis y Síntesis</h6>
                     </div>
                   </div>
                 </div>  
@@ -315,36 +317,36 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col mb-4">
                 <div class="flip-container">
-                  <div class="card" style="width: 8rem">
+                  <div class="card">
                     <div class="front">
-                      <p class="text-muted">- Iniciativa<br>- Trabajo en Equipo<br>- Motivación<br>por el Logro</p>
+                      <h5>- Iniciativa<br>- Trabajo en Equipo<br>- Motivación<br>por el Logro</h5>
                     </div>
                     <div class="back back-ability">
-                      <p>- Iniciativa<br>- Trabajo en Equipo<br>- Motivación<br>por el Logro</p>
+                      <h6>- Iniciativa<br>- Trabajo en Equipo<br>- Motivación<br>por el Logro</h6>
                     </div>
                   </div>
                 </div>  
               </div>    
               <div class="col mb-4">
                 <div class="flip-container">
-                  <div class="card" style="width: 8rem">
+                  <div class="card">
                     <div class="front">
-                      <p class="text-muted">- Creatividad<br>Artística y Social</p>
+                      <h5>- Creatividad<br>Artística y Social</h5>
                     </div>
                     <div class="back back-ability">
-                      <p>- Creatividad<br>Artística y Social</p>
+                      <h6>- Creatividad<br>Artística y Social</h6>
                     </div>
                   </div>
                 </div>  
               </div>    
               <div class="col mb-4">
                 <div class="flip-container">
-                  <div class="card" style="width: 8rem">
+                  <div class="card">
                     <div class="front">
-                      <p class="text-muted">- Organización <br>- Planificación<br>- Capacidad para<br>Trabajar bajo Presión</p>
+                      <h5>- Organización <br>- Planificación<br>- Capacidad para<br>Trabajar bajo Presión</h5>
                     </div>
                     <div class="back back-ability">
-                      <p>- Organización<br>- Planificación<br>- Capacidad para<br>Trabajar bajo Presión</p>
+                      <h6>- Organización<br>- Planificación<br>- Capacidad para<br>Trabajar bajo Presión</h6>
                     </div>
                   </div>
                 </div>  
