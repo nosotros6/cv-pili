@@ -4,11 +4,15 @@
 
 :root{
   --tab-width: 35px;
-  --home-color: #333;
-  --work-color: #C4BDFA;
-  --study-color: #CCF6C8;
-  --ability-color: #fce0bd;
-  --contact-color: #d4c6d4;
+  --home-bg-color: #333;
+  --home-text-color: #FFFFFF;
+  --home-title-color: #e0dfdc;
+
+  --work-bg-color: #C4BDFA;
+  --study-bg-color: #CCF6C8;
+  --ability-bg-color: #fce0bd;
+  --contact-bg-color: #d4c6d4;
+
 }
 
 body{
@@ -70,23 +74,23 @@ body{
 
 /* colores tab navegacion*/
 #list-home-list{
-  background-color: var(--home-color);
+  background-color: var(--home-bg-color);
 }
 
 #list-work-list{
-  background-color: var(--work-color);
+  background-color: var(--work-bg-color);
 }
 
 #list-study-list{
-  background-color: var(--study-color);
+  background-color: var(--study-bg-color);
 }
 
 #list-ability-list{
-  background-color: var(--ability-color);
+  background-color: var(--ability-bg-color);
 }
 
 #list-contact-list{
-  background-color: var(--contact-color);
+  background-color: var(--contact-bg-color);
 }
 /* fin */
 
