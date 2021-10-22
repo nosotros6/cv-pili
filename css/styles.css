@@ -4,6 +4,8 @@
 
 :root{
   --tab-width: 35px;
+  --tab-max-whidth: calc(100% - (var(--tab-width) * 4));
+
   --home-bg-color: #333;
 
   --work-bg-color: #C4BDFA;
@@ -122,7 +124,7 @@ body{
 /* ancho contenido a mostrar */
 .width-show{
   position: absolute;
-  max-width: calc(100% - (var(--tab-width) * 4));
+  max-width: var(--tab-max-whidth);
 
 }
 /* fin */
@@ -306,4 +308,12 @@ a {
 
 .container-title{
   width: 600px;
+}
+
+.img-lateral{
+  height: 100vh;
+  max-width: 30vw;
+  object-fit: cover;
+  position: sticky;
+  top: 0;
 }

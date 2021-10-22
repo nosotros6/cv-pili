@@ -1,5 +1,10 @@
 .pag-home{
   color: var(--light-text-color);
+  background-color: var(--home-bg-color);
+}
+
+.pag-home section{
+  margin-top: 2.5em;
 }
 
 .title-home, .subtitle-home{
@@ -11,15 +16,15 @@
   color: #e0dfdc;
   font-size: 80px;
   letter-spacing: .1em;
-/*  margin-top: .3em;*/
   line-height: .6;
+  margin-top: .5em;
 }
 
 .title-home small{
   font-size: 40px;
-
 }
 
 .subtitle-home{
   font-size: 20px;
+  margin-bottom: 1em;
 }
