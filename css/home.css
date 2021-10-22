@@ -1,0 +1,25 @@
+.pag-home{
+  color: var(--light-text-color);
+}
+
+.title-home, .subtitle-home{
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+}
+
+.title-home{
+  color: #e0dfdc;
+  font-size: 80px;
+  letter-spacing: .1em;
+/*  margin-top: .3em;*/
+  line-height: .6;
+}
+
+.title-home small{
+  font-size: 40px;
+
+}
+
+.subtitle-home{
+  font-size: 20px;
+}
