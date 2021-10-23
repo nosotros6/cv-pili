@@ -148,38 +148,6 @@ body{
   background-size: contain;
 }
 
-/*h1{
-  font-family: 'Poiret One', cursive;
-  color: #e0dfdc;
-  font-size: 80px;
-  font-weight: bold;
-  margin-top: 5px;
-  padding-bottom: 0px;
-  padding-left: auto; 
-  letter-spacing: .1em;
-}*/
-
-
-/*h2{
-  font-family: 'Poiret One', cursive;
-  font-size: 40px;
-  color: #e0dfdc;
-  font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  padding-top: 0px;
-  padding-bottom: 10px;
-  padding-left: auto;
-  letter-spacing: .30em;
-}*/
-
-/*h3{
-  font-family: 'Poiret One', cursive;
-  font-size: 30px;
-  font-weight: bold;
-  color: #777474;
-}*/
-
 h1, h2{
   font-family: 'Poiret One', cursive;
   font-weight: bold;
