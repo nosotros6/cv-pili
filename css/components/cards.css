@@ -33,7 +33,8 @@
 }
 
 .front {
-  background-color:#f7f8fc;
+  background-color: var(--card-bg-front);
+  color: var(--dark-text-color);
 }
 
 .front > h3{

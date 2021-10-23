@@ -5,16 +5,19 @@
   --tab-width: 35px;
   --tab-max-width: calc(100% - (var(--tab-width) * 4));
 
-  --home-bg-color: #333;
+  --light-text-color: #FFFFFF;
+  --dark-text-color: #777474;
 
+  --home-bg-color: #333;
   --work-bg-color: #C4BDFA;
   --study-bg-color: #CCF6C8;
   --ability-bg-color: #fce0bd;
   --contact-bg-color: #d4c6d4;
 
-  --light-text-color: #FFFFFF;
-  --dark-text-color: #777474;
-
+  --card-bg-front: #f7f8fc;
+  --work-card-bg-back: #71789e;
+  --study-card-bg-back: #66ad84;
+  --ability-card-bg-back: #ee906d;
 }
 
 body{ z-index: -1; }
@@ -24,7 +27,10 @@ h1, h2{
   font-weight: bold;
 }
 
-ul, p, h3{ font-family: 'Comfortaa', cursive; }
+ul, p, h3{
+  font-family: 'Comfortaa', cursive;
+
+}
 
 /*a{
   font-family: 'Comfortaa', cursive; 
