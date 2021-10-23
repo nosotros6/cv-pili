@@ -1,15 +1,19 @@
-.pag-home{
+#list-home{
+  left: 0;
   color: var(--light-text-color);
   background-color: var(--home-bg-color);
 }
 
-.pag-home section{
+#list-home section{
   margin-top: 2.5em;
 }
 
-.title-home, .subtitle-home{
-  font-family: 'Poiret One', cursive;
-  font-weight: bold;
+/*#list-home p{
+  font-size: 14px;
+}*/
+
+.saludo{
+  font-size: 18px;
 }
 
 .title-home{
