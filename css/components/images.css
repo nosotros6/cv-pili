@@ -1,0 +1,7 @@
+.img-lateral{
+  height: 100vh;
+  max-width: 30vw;
+  object-fit: cover;
+  position: sticky;
+  top: 0;
+}

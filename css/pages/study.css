@@ -1,0 +1,7 @@
+#list-study{
+  left: calc(var(--tab-width) * 2);
+}
+
+#list-study .back{
+  background-color: #66ad84;
+}

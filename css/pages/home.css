@@ -1,0 +1,10 @@
+#list-home{
+  left: 0;
+  color: var(--light-text-color);
+  background-color: var(--home-bg-color);
+  font-size: 14px;
+}
+
+#list-home section{
+  margin-top: 2.5em;
+}

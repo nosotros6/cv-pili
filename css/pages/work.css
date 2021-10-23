@@ -1,0 +1,9 @@
+#list-work{
+  left: var(--tab-width);
+  color: var(--dark-text-color);
+  background-color: var(--work-bg-color);
+}
+
+#list-work .back{
+  background-color: #71789e;
+}
