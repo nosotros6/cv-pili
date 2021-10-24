@@ -1,5 +1,9 @@
-#list-ability{
-  left: calc(var(--tab-width) * 3);
+@media screen and (min-width: 992px) {
+  #list-ability{
+    left: calc(var(--tab-width) * 3);
+  }
 }
+
+
 
 #list-ability .back{ background-color: var(--ability-card-bg-back); }

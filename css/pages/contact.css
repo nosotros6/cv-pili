@@ -1,3 +1,5 @@
-#list-contact{
-  left: calc(var(--tab-width) * 4);
+@media screen and (min-width: 992px) {
+  #list-contact{
+    left: calc(var(--tab-width) * 4);
+  }
 }

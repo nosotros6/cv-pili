@@ -20,7 +20,13 @@
   --ability-card-bg-back: #ee906d;
 }
 
-body{ z-index: -1; }
+
+@media screen and (min-width: 992px) {
+  body{ z-index: -1; }
+}
+
+
+#list-home, #list-work, #list-study, #list-ability, #list-contact { left: 0; }
 
 h1, h2{
   font-family: 'Poiret One', cursive;

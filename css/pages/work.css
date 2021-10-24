@@ -1,6 +1,9 @@
 #list-work{
-  left: var(--tab-width);
   background-color: var(--work-bg-color);
+}
+
+@media screen and (min-width: 992px) {
+  #list-work{ left: var(--tab-width); }
 }
 
 #list-work .back{ background-color: var(--work-card-bg-back); }
