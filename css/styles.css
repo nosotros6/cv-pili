@@ -9,17 +9,16 @@
   --dark-text-color: #777474;
 
   --home-bg-color: #333;
-  --work-bg-color: #C4BDFA;
-  --study-bg-color: #CCF6C8;
+  --work-bg-color: #6e8298;
+  --study-bg-color: #d1fff5;
   --ability-bg-color: #fce0bd;
-  --contact-bg-color: #d4c6d4;
+  --contact-bg-color: #f3d1d7;
 
   --card-bg-front: #f7f8fc;
   --work-card-bg-back: #71789e;
   --study-card-bg-back: #66ad84;
   --ability-card-bg-back: #ee906d;
 }
-
 
 @media screen and (min-width: 992px) {
   body{ z-index: -1; }
