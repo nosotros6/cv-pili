@@ -15,9 +15,9 @@
   --contact-bg-color: #f3d1d7;
 
   --card-bg-front: #f7f8fc;
-  --work-card-bg-back: #71789e;
-  --study-card-bg-back: #66ad84;
-  --ability-card-bg-back: #ee906d;
+  --work-card-bg-back: #150485;
+  --study-card-bg-back: #00BDAA;
+  --ability-card-bg-back: #F05454;
 }
 
 @media screen and (min-width: 992px) {
@@ -45,5 +45,5 @@ ul, p, h3{
 a { text-decoration: none; }
 
 .container-form{
-  background-color: #6e8298;
+  background-color: #440047;
 }
