@@ -14,7 +14,7 @@
   --ability-bg-color: #fce0bd;
   --contact-bg-color: #f3d1d7;
 
-  --card-bg-front: #f7f8fc;
+  --card-bg-front: #deeeea;
   --work-card-bg-back: #14279B;
   --study-card-bg-back: #1597E5;
   --ability-card-bg-back: #FF0075;
@@ -32,7 +32,7 @@ h1, h2{
   font-weight: bold;
 }
 
-ul, p, h3{
+ul, p, h3, h5{
   font-family: 'Comfortaa', cursive;
 
 }
