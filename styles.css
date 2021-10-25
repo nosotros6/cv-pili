@@ -272,33 +272,33 @@ a{
 }
 
 .front {
-  background-color:#14279B;
+  background-color:#DEEEEA;
   color: rgb(39, 37, 37);
 
 }
 .back {
-  background-color: #9D9D9D;
+  background-color: #14279B;
   color: rgb(39, 37, 37);
   transform: rotateY(180deg);
 }
 
 .front-study{
-  background-color:#1597E5;
-  color: rgb(39, 37, 37);
+  background-color:#DEEEEA;
+  /*color: rgb(39, 37, 37);*/
 }
 .back-study{
-  background-color: #B5EAEA;
-  color: rgb(39, 37, 37);
+  background-color: #1597E5;
+  /*color: rgb(39, 37, 37);*/
   transform: rotateY(180deg);
 }
 
 .front-ability{
-  background-color:#FF0075;
-  color: rgb(39, 37, 37);
+  background-color:#DEEEEA;
+  /*color: rgb(39, 37, 37);*/
 }
 .back-ability{
-  background-color: #FDD2BF;
-  color: rgb(39, 37, 37);
+  background-color: #FF0075;
+  /*color: rgb(39, 37, 37);*/
   transform: rotateY(180deg);
 }
 
