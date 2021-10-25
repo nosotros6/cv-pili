@@ -272,31 +272,32 @@ a{
 }
 
 .front {
-  background-color:#d1fff5;
+  background-color:#14279B;
   color: rgb(39, 37, 37);
+
 }
 .back {
-  background-color: #d1fff5;
+  background-color: #9D9D9D;
   color: rgb(39, 37, 37);
   transform: rotateY(180deg);
 }
 
 .front-study{
-  background-color:#fce0bd;
+  background-color:#1597E5;
   color: rgb(39, 37, 37);
 }
 .back-study{
-  background-color: #fce0bd;
+  background-color: #B5EAEA;
   color: rgb(39, 37, 37);
   transform: rotateY(180deg);
 }
 
 .front-ability{
-  background-color:#f3d1d7;
+  background-color:#FF0075;
   color: rgb(39, 37, 37);
 }
 .back-ability{
-  background-color: #f3d1d7;
+  background-color: #FDD2BF;
   color: rgb(39, 37, 37);
   transform: rotateY(180deg);
 }
@@ -308,5 +309,5 @@ a{
 }
 
 .container-form{
-  background-color: #6e8298;
+  background-color: #72147E;
 }
