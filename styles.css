@@ -161,10 +161,10 @@ body{
 .d-flex-contact{
   background-color: #f3d1d7;
   background-image : src="./img/contact.png";
-  height: 120vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: contain;
-
+}
 
 h1{
   font-family: 'Poiret One', cursive;
@@ -304,6 +304,7 @@ a{
 .form-control{
   border: none;
   border-bottom: 2px solid #b5b5b9;
+  
 }
 
 .container-form{
