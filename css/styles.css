@@ -15,9 +15,9 @@
   --contact-bg-color: #f3d1d7;
 
   --card-bg-front: #f7f8fc;
-  --work-card-bg-back: #150485;
-  --study-card-bg-back: #00BDAA;
-  --ability-card-bg-back: #F05454;
+  --work-card-bg-back: #14279B;
+  --study-card-bg-back: #1597E5;
+  --ability-card-bg-back: #FF0075;
 }
 
 @media screen and (min-width: 992px) {
