@@ -23,7 +23,7 @@
   color: #96969b;
   position: absolute;
   text-align: center;
-  /*word-spacing: 50px;*/
+  letter-spacing: .90em;
 }
 
 .main-navigation{
