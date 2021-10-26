@@ -1,0 +1,15 @@
+.img-lateral{
+  height: 0vh;
+  max-width: 0vw;
+  object-fit: cover;
+  position: sticky;
+  top: 0;
+}
+
+@media screen and (min-width: 576px){
+  .img-lateral{
+    height: 100vh;
+    max-width: 30vw;
+
+  }
+}

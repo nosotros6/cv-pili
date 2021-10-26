@@ -1,0 +1,9 @@
+#list-contact{
+  background-color: var(--contact-bg-color);
+}
+
+@media screen and (min-width: 992px) {
+  #list-contact{
+    left: calc(var(--tab-width) * 4);
+  }
+}

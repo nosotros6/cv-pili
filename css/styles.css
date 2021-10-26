@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+:root{
+  --tab-width: 35px;
+  --tab-max-width: calc(100% - (var(--tab-width) * 4));
+
+  --light-text-color: #FFFFFF;
+  --dark-text-color: #777474;
+
+  --home-bg-color: #333;
+  --work-bg-color: #6e8298;
+  --study-bg-color: #d1fff5;
+  --ability-bg-color: #fce0bd;
+  --contact-bg-color: #f3d1d7;
+
+  --card-bg-front: #f7f8fc;
+  --work-card-bg-back: #14279B;
+  --study-card-bg-back: #1597E5;
+  --ability-card-bg-back: #FF0075;
+}
+
+@media screen and (min-width: 992px) {
+  body{ z-index: -1; }
+}
+
+
+#list-home, #list-work, #list-study, #list-ability, #list-contact { left: 0; }
+
+h1, h2{
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+}
+
+ul, p, h3{
+  font-family: 'Comfortaa', cursive;
+
+}
+
+/*a{
+  font-family: 'Comfortaa', cursive; 
+  font-size: 14px;
+  }*/
+
+a { text-decoration: none; }
+
+.container-form{
+  background-color: #72147E;
+}

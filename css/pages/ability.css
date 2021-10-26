@@ -1,0 +1,11 @@
+#list-ability{
+  background-color: var(--ability-bg-color);
+}
+
+#list-ability .back{ background-color: var(--ability-card-bg-back); }
+
+@media screen and (min-width: 992px) {
+  #list-ability{
+    left: calc(var(--tab-width) * 3);
+  }
+}

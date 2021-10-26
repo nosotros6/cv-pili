@@ -1,0 +1,24 @@
+/* inicio titulos en home */
+.saludo{ font-size: 18px; } /* hola mundo en home */
+
+.title-home{
+  color: #e0dfdc;
+  font-size: 80px;
+  letter-spacing: .1em;
+  line-height: .6;
+  margin-top: .5em;
+}
+.title-home small{ font-size: 40px; }
+
+.subtitle-home{
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+/* fin titulos en home */
+
+.title-content{
+  font-size: 30px;
+  color: var(--dark-text-color);
+  text-align: center;
+  margin: 3rem auto;
+} /* titulo para paginas distintas a home */
