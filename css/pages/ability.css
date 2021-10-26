@@ -7,3 +7,4 @@
 
 
 #list-ability .back{ background-color: var(--ability-card-bg-back); }
+#list-ability .fronts{ background-color: var(--ability-card-bg-back); }

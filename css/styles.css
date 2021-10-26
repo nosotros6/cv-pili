@@ -11,13 +11,15 @@
   --home-bg-color: #333;
   --work-bg-color: #6e8298;
   --study-bg-color: #d1fff5;
-  --ability-bg-color: #fce0bd;
-  --contact-bg-color: #f3d1d7;
+  --ability-bg-color: #FCF3CA;
+  --contact-bg-color: #EF7B7B;
 
-  --card-bg-front: #deeeea;
-  --work-card-bg-back: #14279B;
-  --study-card-bg-back: #1597E5;
-  --ability-card-bg-back: #FF0075;
+  --card-bg-front: #EED6C4;
+  --work-card-bg-back: #E8D0B3;
+  --study-card-bg-front: #6B4F4F;
+  --study-card-bg-back: #483434;
+  --ability-card-bg-front: #693C72;
+  --ability-card-bg-back: #512D6D;
 }
 
 @media screen and (min-width: 992px) {
@@ -45,5 +47,5 @@ ul, p, h3, h5{
 a { text-decoration: none; }
 
 .container-form{
-  background-color: #72147E;
+  background-color: #7EB5A6;
 }

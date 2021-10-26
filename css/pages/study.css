@@ -5,3 +5,4 @@
 }
 
 #list-study .back{ background-color: var(--study-card-bg-back); }
+#list-study .front{ background-color: var(--study-card-bg-back); }
