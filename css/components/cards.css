@@ -23,7 +23,7 @@
   height: 100%;
   backface-visibility: hidden;
   display: flex;
-  align-items: center;
+/*  align-items: center;*/
   justify-content: center;
   flex-direction: column;
   text-align: center;
@@ -47,7 +47,7 @@
 }
 
 /* listas sin decorador y centradas */
-.back li{ display: block; }
+/*.back li{ display: block; }*/
 .back ul{
   padding: 0;
   margin: 0;

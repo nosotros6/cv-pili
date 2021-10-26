@@ -1,7 +1,11 @@
+#list-study{
+  background-color: var(--study-bg-color);
+}
+
+#list-study .back{ background-color: var(--study-card-bg-back); }
+
 @media screen and (min-width: 992px) {
   #list-study{
     left: calc(var(--tab-width) * 2);
   }
 }
-
-#list-study .back{ background-color: var(--study-card-bg-back); }

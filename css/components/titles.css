@@ -19,4 +19,6 @@
 .title-content{
   font-size: 30px;
   color: var(--dark-text-color);
+  text-align: center;
+  margin: 3rem auto;
 } /* titulo para paginas distintas a home */
