@@ -14,10 +14,10 @@
   --ability-bg-color: #fce0bd;
   --contact-bg-color: #f3d1d7;
 
-  --card-bg-front: #f7f8fc;
-  --work-card-bg-back: #150485;  
-  --study-card-bg-back: #008891;
-  --ability-card-bg-back: #F05454;
+  --card-bg-front: #deeeea;
+  --work-card-bg-back: #14279B;
+  --study-card-bg-back: #1597E5;
+  --ability-card-bg-back: #FF0075;
 }
 
 @media screen and (min-width: 992px) {
@@ -32,7 +32,7 @@ h1, h2{
   font-weight: bold;
 }
 
-ul, p, h3{
+ul, p, h3, h5{
   font-family: 'Comfortaa', cursive;
 
 }
@@ -45,5 +45,5 @@ ul, p, h3{
 a { text-decoration: none; }
 
 .container-form{
-  background-color: #440047;
+  background-color: #72147E;
 }
