@@ -47,7 +47,7 @@
 }
 
 /* listas sin decorador y centradas */
-/*.back li{ display: block; }*/
+.back li{ display: block; }
 .back ul{
   padding: 0;
   margin: 0;
