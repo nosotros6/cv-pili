@@ -8,6 +8,7 @@
   line-height: .6;
   margin-top: .5em;
 }
+
 .title-home small{ font-size: 40px; }
 
 .subtitle-home{
@@ -22,3 +23,7 @@
   text-align: center;
   margin: 3rem auto;
 } /* titulo para paginas distintas a home */
+
+.title-work{
+  color: var(--light-text-color);
+}

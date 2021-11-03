@@ -26,6 +26,22 @@
   letter-spacing: .90em;
 }
 
+.nav-tab-work span {
+  font-size: 20px;
+  color: #e1e1e7;
+  position: absolute;
+  text-align: center;
+  letter-spacing: .90em;
+}
+
+.nav-tab-contact span {
+  font-size: 20px;
+  color: #f3f3fa;
+  position: absolute;
+  text-align: center;
+  letter-spacing: .90em;
+}
+
 .main-navigation{
   top: 0;
   position: fixed;
