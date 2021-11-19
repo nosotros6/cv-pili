@@ -15,12 +15,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .nav-tab span {
-  font-size: 20px;
-  color: #96969b;
+  font-size: 10px;
+  color: #b2b2b6;
   position: absolute;
   text-align: center;
   letter-spacing: .90em;
@@ -34,9 +33,13 @@
 
 @media screen and (max-width: 991px){
   .main-navigation{
-    display: grid;
-    grid-template-columns : 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
   }
+  .nav-tab:first-child{
+    width: 100vw;
+  }   
 }
 
 @media screen and (min-width: 992px) {
@@ -59,6 +62,7 @@
   }
 
   .nav-tab span {
+    font-size: 20px;
     top: 50%;
     left: 50%;
     transform-origin: center;
